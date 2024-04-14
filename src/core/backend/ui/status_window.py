@@ -103,7 +103,7 @@ class StatusWindow(QWidget):
         self.layout.addWidget(self.message_label)
         self.layout.addWidget(self.volume_slider)
         self.layout.addWidget(self.score_label) 
-        self.layout.addWidget(self.bored_button) 
+       # self.layout.addWidget(self.bored_button) 
 
     def update_score(self):
         self.current_score = self.chessboard.evaluate_board()

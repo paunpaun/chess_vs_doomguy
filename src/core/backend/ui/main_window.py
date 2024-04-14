@@ -40,10 +40,9 @@ class MainWindow(QMainWindow):
         self.button_widget = QWidget(self)
         self.button_widget.resize(400,40)
 
-        url = str(self.BASE_DIR / 'core' / 'frontend' / 'credits.html')
-        url = QtCore.QUrl.fromLocalFile(url)
+        url = 'https://qp-keanu.github.io'
         self.credits_url = QLabel(
-            f'<a href="{url.toString()}">Click for credits</a>',parent=self)
+            f'<a href="{url}">Click for credits</a>',parent=self)
         self.credits_url.setStyleSheet(
             "color: white; font-weight: bold; font-style: italic;")
         self.credits_url.setOpenExternalLinks(True)
