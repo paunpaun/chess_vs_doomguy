@@ -1,6 +1,4 @@
-# Chess vs Doomguy
-
-## You play chess against doomguy
+# Chess
 
 ![doom](https://github.com/qp-keanu/chess_vs_doomguy/assets/166941771/99275b41-0c9c-48a1-8ae2-4127204b9903)
 
